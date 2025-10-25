@@ -1,0 +1,39 @@
+.projects-page {
+  background-color: #f3f3f3;
+}
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+  padding: 0 15%;
+}
+.projects-main h1 {
+  align-self: flex-start;
+  margin-bottom: 80px;
+  font-size: 42px;
+}
+.section-content {
+  display: flex;
+  margin-bottom: 125px;
+}
+
+.section-content p {
+  max-width: 60ch;
+}
+.section-desc {
+  margin-right: 5%;
+}
+.section-desc ul {
+  display: flex; /* Makes the list items use Flexbox */
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.section-desc li {
+  margin-right: 30%;
+}
+.section-desc a:hover {
+  color: #926402;
+}
